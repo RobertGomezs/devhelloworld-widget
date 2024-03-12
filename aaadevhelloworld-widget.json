@@ -1,0 +1,23 @@
+{
+    "metadata":{
+        "name":"AAaDEV Hola mundo widget",
+        "description": "Test de widget para un componente estructurado",
+        "tags": "aaadev, webcomponet, newwux",
+        "version":"1.0",
+        "date": "2023-03-12T12:00:00",
+        "id": "c39b8a36-7503-430e-acd1-49277fa24a4b"
+    },
+    "configuration":{
+        "external": true,
+        "enabled": true,
+        "name": "c39b8a36-7503-430e-acd1-49277fa24a4b",
+        "icon": "aoc-home",
+        "element": "<aaadevhelloworld-widget></aaadevhelloworld-widget>",
+        "permissions": [],
+        "shorcuts":[],
+        "localisation":[],
+        "files": [
+            "/aaadevhelloworld-widget.js"
+        ]
+    } 
+}
