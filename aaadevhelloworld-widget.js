@@ -8,7 +8,7 @@
 
 class TestWebComponentWidget extends HTMLElement{
     static _WIDGETNAME = 'aaadevhelloworld-widget';
-    static _WIDGETURL = 'htpps://{{fqdn}}';
+    static _WIDGETURL = 'https://blue-flower-040073910.5.azurestaticapps.net/';
 }
 //función que se ejecuta una vez que el custom element es intanciado en la inteface del worksapace
 function connectecCallback(){
