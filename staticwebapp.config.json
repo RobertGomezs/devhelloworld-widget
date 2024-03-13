@@ -1,0 +1,21 @@
+{
+    "trailingSlash":"never",
+    "routes": [
+        {
+            "route": "/index.html",
+            "rewrite": "/aaadevhelloworld-widget.html"
+        },
+        {
+            "route": "/aaadevhelloworld-widget.html",
+            "rewrite": "/aaadevhelloworld-widget.html"
+        },
+        {
+            "route": "/aaadevhelloworld-widget.css",
+            "rewrite": "/aaadevhelloworld-widget.css"
+        },
+        {
+            "route": "/aaadevhelloworld-widget.js",
+            "rewrite": "/aaadevhelloworld-widget.js"
+        }
+    ]
+}
