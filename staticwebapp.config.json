@@ -19,7 +19,7 @@
         }
     ],
     "globalHeaders": {
-        "Access-Control-Allow-Origin": "https://blue-flower-040073910.5.azurestaticapps.net/",
+        "Access-Control-Allow-Origin": "https://blue-flower-040073910.5.azurestaticapps.net",
         "Access-Control-Allow-Methods": "POST, GET, OPTIONS"
       }
 }
