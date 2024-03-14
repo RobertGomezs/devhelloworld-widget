@@ -1,3 +1,12 @@
+
+function enviar1(){
+    console.log("boton1");
+}
+
+function enviar2(){
+    console.log("boton1");
+}
+
 //Definicion de Librerias
 ['https://cnd.jsdelivr.net/npm/axios/dist/axios.min.js'].forEach(u =>
 {
