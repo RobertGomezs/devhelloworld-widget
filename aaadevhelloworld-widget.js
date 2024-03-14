@@ -1,14 +1,9 @@
 
-function enviar1(){
-    console.log("boton1");
-}
 
-function enviar2(){
-    console.log("boton1");
-}
 
 //Definicion de Librerias
-['https://cnd.jsdelivr.net/npm/axios/dist/axios.min.js'].forEach(u =>
+['https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'
+].forEach(u =>
 {
     var script = document.createElement('script');
     script.src = u;
@@ -30,7 +25,7 @@ class TestWebComponentWidget extends HTMLElement{
         fetch(`${TestWebComponentWidget._WIDGETURL}/${TestWebComponentWidget._WIDGETNAME}.html`)
         .then(data => data.text())
         .then(html => {
-            this.innerHTML += `<link rel="stylesheet" href= "${TestWebComponentWidget._WIDGETURL}/${TestWebComponentWidget._WIDGETNAME}.css" `
+            this.innerHTML += `<link rel="stylesheet" href="${TestWebComponentWidget._WIDGETURL}/${TestWebComponentWidget._WIDGETNAME}.css" `
             this.innerHTML += html;
             this.initWidgetCode();
         })
